@@ -1,4 +1,4 @@
-package com.example.android.practice_application.ui.gallery
+package com.example.android.practice_application.presentation.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater

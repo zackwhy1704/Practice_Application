@@ -1,4 +1,4 @@
-package com.example.android.practice_application.ui.home
+package com.example.android.practice_application.presentation.home
 
 import android.os.Bundle
 import android.view.LayoutInflater

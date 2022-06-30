@@ -1,36 +1,23 @@
 package com.example.android.practice_application.presentation.gallery
 
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.TextView
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.android.practice_application.R
+import com.example.android.practice_application.base.BaseFragment
 import com.example.android.practice_application.databinding.FragmentGalleryBinding
+import dagger.hilt.android.AndroidEntryPoint
+import kotlin.reflect.KClass
 
-class GalleryFragment : Fragment() {
+@AndroidEntryPoint
+class GalleryFragment : BaseFragment<GalleryViewModel, FragmentGalleryBinding>() {
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        val mViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
+    override fun getViewModelCLass(): KClass<GalleryViewModel> = GalleryViewModel::class
 
-        val _binding: FragmentGalleryBinding = DataBindingUtil.inflate(
-            inflater,
-            R.layout.fragment_gallery, container, false
-        )
+    override fun getContentLayoutId(): Int = R.layout.fragment_gallery
 
-        val textView: TextView = _binding.textGallery
-        mViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+    override fun onBindView() {
+        with(dataBinding) {
+            viewModel = this@GalleryFragment.viewModel
+            executePendingBindings()
         }
-        return _binding.root
     }
 
 }

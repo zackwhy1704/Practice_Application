@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/zheng/Downloads/Practice_Application/app/src/main/res/layout/content_main.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/zheng/Downloads/Practice_Application_New/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zheng/Downloads/Practice_Application_New/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zheng/Downloads/Practice_Application_New/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/zheng/Downloads/Practice_Application_New/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

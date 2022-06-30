@@ -1,4 +1,4 @@
-package com.example.android.practice_application.ui.slideshow
+package com.example.android.practice_application.presentation.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater

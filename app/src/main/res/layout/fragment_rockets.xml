@@ -5,16 +5,16 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.android.practice_application.presentation.gallery.GalleryViewModel" />
+            type="com.example.android.practice_application.presentation.gallery.RocketsViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.gallery.GalleryFragment">
+        tools:context=".presentation.gallery.RocketsFragment">
 
         <TextView
-            android:id="@+id/text_gallery"
+            android:id="@+id/text_rockets"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"

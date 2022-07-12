@@ -24,7 +24,7 @@ abstract class BaseFragment<VM : ViewModel, DB : ViewDataBinding> : Fragment() {
     //internal databinding
     private var binding: DB? = null
 
-    //the view model [KClass], e.g. GalleryViewModel::class
+    //the view model [KClass], e.g. RocketsViewModel::class
     protected abstract fun getViewModelCLass(): KClass<VM>
 
     @LayoutRes

@@ -1,4 +1,4 @@
-package com.example.android.practice_application.presentation.gallery
+package com.example.android.practice_application.presentation.rockets
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.example.android.practice_application.presentation.gallery
+package com.example.android.practice_application.presentation.rockets
 
 import com.example.android.practice_application.R
 import com.example.android.practice_application.base.BaseFragment

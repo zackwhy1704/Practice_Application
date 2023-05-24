@@ -5,13 +5,13 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.android.practice_application.presentation.gallery.RocketsViewModel" />
+            type="com.example.android.practice_application.presentation.rockets.RocketsViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.gallery.RocketsFragment">
+        tools:context=".presentation.rockets.RocketsFragment">
 
         <TextView
             android:id="@+id/text_rockets"
